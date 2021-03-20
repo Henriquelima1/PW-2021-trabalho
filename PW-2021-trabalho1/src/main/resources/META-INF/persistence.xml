@@ -3,14 +3,13 @@
   <persistence-unit name="PW-trabalho1" transaction-type="JTA">
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
     <jta-data-source>jdbc/PW-trabalho1</jta-data-source>
-    <class>br.edu.ifsul.modelo.Cidade</class>
-    <class>br.edu.ifsul.modelo.Estado</class>
-    <class>br.edu.ifsul.modelo.Jogador</class>
-    <class>br.edu.ifsul.modelo.Permissao</class>
+    <class>br.edu.ifsul.modelo.Acessorios</class> 
+    <class>br.edu.ifsul.modelo.Carro</class>  
+    <class>br.edu.ifsul.modelo.Cobertura</class>
+    <class>br.edu.ifsul.modelo.Corretor</class>
     <class>br.edu.ifsul.modelo.Pessoa</class>
-    <class>br.edu.ifsul.modelo.Posicao</class>
-    <class>br.edu.ifsul.modelo.Time</class>
-    <class>br.edu.ifsul.modelo.Usuario</class>
+    <class>br.edu.ifsul.modelo.Seguro</class>
+    <class>br.edu.ifsul.modelo.Sinistro</class>
     <properties>
       <property name="hibernate.hbm2ddl.auto" value="update"/>
       <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>

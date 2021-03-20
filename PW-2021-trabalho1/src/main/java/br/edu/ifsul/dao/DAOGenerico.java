@@ -10,7 +10,7 @@ public class DAOGenerico<TIPO> implements Serializable {
     
     private List<TIPO> listaObjetos;
     private List<TIPO> listaTodos;
-    @PersistenceContext(unitName = "PW-2020-2-WebPU")
+    @PersistenceContext(unitName = "PW-trabalho1")
     protected EntityManager em;
     protected Class classePersistente;
     
